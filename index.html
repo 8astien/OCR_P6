@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>JustStreamIt</title>
+    
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    
+    <script src="./scripts/best-rated.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/modal.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/logo.png" alt="JustStreamIt">
+        <nav>
+            <ul>
+                <li class="nav--item">
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#">Catégories</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="best--rated">
+        <img src="" id="bestRatedImage" alt="" data-film-id=""> 
+        <div class="best--rated__text">
+            <h3></h3>
+            <button>Voir détails</button>
+            <p></p>
+        </div>
+    </section>
+
+
+    <section class="carousel--section">
+        <h3>Films les mieux notés</h3>
+        <div class="carousel">
+            <button class="carousel__button--left">&lt;</button>
+            <div class="carousel__container carousel__container--one">
+            
+            </div>
+            <button class="carousel__button--right">&gt;</button>
+        </div>
+    </section>
+
+    <section class="carousel--section">
+        <h3>Comédies</h3>
+        <div class="carousel">
+            <button class="carousel__button--left">&lt;</button>
+            <div class="carousel__container carousel__container--two">
+                
+            </div>
+            <button class="carousel__button--right">&gt;</button>
+        </div>
+    </section>
+
+    <section class="carousel--section">
+        <h3>Thrillers</h3>
+        <div class="carousel">
+            <button class="carousel__button--left">&lt;</button>
+            <div class="carousel__container carousel__container--three">
+               
+            </div>
+            <button class="carousel__button--right">&gt;</button>
+        </div>
+    </section>
+
+    <section class="carousel--section">
+        <h3>Criminels</h3>
+        <div class="carousel">
+            <button class="carousel__button--left">&lt;</button>
+            <div class="carousel__container carousel__container--four">
+                
+            </div>
+            <button class="carousel__button--right">&gt;</button>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal" id="movieModal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <img class="modal__image" src="" alt="">
+            <h3 class="modal__title">Titre :</h3>
+            <p class="modal__genre">Genre :</p>
+            <p class="modal__release-date">Date de sortie :</p>
+            <p class="modal__rated">Rated : </p>
+            <p class="modal__imdb-score">Score Imdb : </p>
+            <p class="modal__director">Réalisateur :</p>
+            <p class="modal__actors">Casting :</p>
+            <p class="modal__duration">Durée :</p>
+            <p class="modal__country">Pays d'Origine :</p>
+            <p class="modal__box-office">Résultat Box Office :</p>
+            <p class="modal__summary">Résumé :</p>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
